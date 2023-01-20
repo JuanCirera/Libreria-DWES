@@ -62,7 +62,7 @@
             <label class="block text-gray-700 text-sm font-bold mb-2" for="resumen">
                 Resumen
             </label>
-            <textarea name="resumen" value="{{old('resumen')}}" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="resumen"></textarea>
+            <textarea name="resumen" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="resumen">{{old('resumen')}}</textarea>
             @error('resumen')
                 <p class="mt-2 text-red-800">
                     *{{$message}}    
