@@ -124,3 +124,5 @@ class LibroController extends Controller
         return redirect()->route('libros.index')->with('mensaje','Libro eliminado');
     }
 }
+
+// Juan Fco Cirera

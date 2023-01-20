@@ -86,3 +86,7 @@
         </script>
     @endif
 @endsection
+
+{{-- Juan Fco Cirera --}}
+
+{{-- Todo es hecho desde cero, no se ha copiado nada --}}
