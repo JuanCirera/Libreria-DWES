@@ -16,7 +16,6 @@ class LibroController extends Controller
     public function index()
     {
         $libros=Libro::with('user')->orderBy('id','desc')->paginate(10);
-        // $users=User::orderBy('id')->pluck("name"); /Quito esta linea para usar carga ansiosa
         return view('libros.index',compact('libros'));
     }
 
