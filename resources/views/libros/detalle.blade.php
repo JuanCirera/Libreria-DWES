@@ -19,6 +19,9 @@
                 <b>PVP:</b> {{$libro->pvp}}€
             </p>
             <p class="text-gray-700 text-base">
+                <b>Stock:</b> {{$libro->stock}}
+            </p>
+            <p class="text-gray-700 text-base">
                 <b>Resumen:</b> <br>
                 {{ $libro->resumen }}
             </p>
